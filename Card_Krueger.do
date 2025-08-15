@@ -550,7 +550,7 @@ file write `myfile' "\usepackage{booktabs}" _n
 file write `myfile' "\begin{document}" _n _n
 file write `myfile' "\setcounter{table}{3}" _n
 
-* Table structure - CAPTION MOVED OUTSIDE TABULAR
+* Table structure 
 file write `myfile' "\begin{table}[htbp]" _n
 file write `myfile' "\centering" _n
 file write `myfile' "\caption{Employment Effects of Minimum Wage Changes}" _n
@@ -562,7 +562,7 @@ file write `myfile' " & \multicolumn{5}{c}{delta\_emp} \\" _n
 file write `myfile' " & (1) & (2) & (3) & (4) & (5) \\" _n
 file write `myfile' "\midrule" _n
 
-* Define variables in exact order from your image
+* Define variables 
 local varlist STATE CHAIN1 CHAIN2 CHAIN3 CO_OWNED GAP SOUTHJ CENTRALJ NORTHJ PA1 PA2
 
 * Write coefficients
